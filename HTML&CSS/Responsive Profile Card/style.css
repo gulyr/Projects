@@ -105,3 +105,26 @@ body {
 .profile-card .buttons .button:hover {
     background-color: #0e4bf1;
 }
+
+.profile-card .analytics {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.profile-card .analytics .data {
+    display: flex;
+    align-items: center;
+    color: #333;
+    padding: 0 20px;
+    border-right: 2px solid #e7e7e7;
+}
+
+.profile-card .analytics .data:last-child {
+    border-right: none;
+}
+
+.profile-card .analytics .data i {
+    font-size: 18px;
+    margin-right: 6px;
+}

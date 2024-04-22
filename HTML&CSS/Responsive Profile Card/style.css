@@ -17,6 +17,9 @@ body {
 }
 
 .profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 370px;
     width: 100%;
     background-color: #fff;
@@ -25,19 +28,37 @@ body {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-.image {
+.profile-card .image {
     position: relative;
     height: 150px;
     width: 150px;
     border-radius: 50%;
     background-color: #4070f4;
     padding: 3px;
+    margin-bottom: 10px;
 }
 
-.image .profile-img {
+.profile-card .image .profile-img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid #fff;
+}
+
+.profile-card .text-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+
+.profile-card .text-data .name {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.profile-card .text-data .job {
+    font-size: 15px;
+    font-weight: 400;
 }

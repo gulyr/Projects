@@ -37,12 +37,35 @@ body {
     margin-right: 10px;
 }
 
-.container header .logo h5 {
+.container header .chip {
+    width: 60px;
+}
+
+.container h5 {
     color: #fff;
     font-size: 16px;
     font-weight: 400;
 }
 
-.container header .chip {
-    width: 60px;
+.container h5.number {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 4px;
+}
+
+.container h5.name {
+    margin-top: 20px;
+}
+
+.container h6 {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.container .card-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 40px;
 }

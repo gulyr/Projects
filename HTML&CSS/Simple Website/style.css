@@ -70,3 +70,53 @@ nav .menu ul li a:hover {
     width: 100%;
     background: rgba(0, 0, 0, 0.4);
 }
+
+.center {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    padding: 0 20px;
+    text-align: center;
+}
+
+.center .title {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.center .sub_title {
+    color: #fff;
+    font-size: 52px;
+    font-weight: 600;
+}
+
+.center .buttons {
+    margin-top: 20px;
+}
+
+.center .buttons button {
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.center .buttons button:first-child {
+    color: #fff;
+    background: none;
+}
+
+.center .buttons button:first-child:hover {
+    color: #000;
+    background: #fff;
+}

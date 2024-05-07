@@ -20,6 +20,16 @@ footer {
     left: 0;
 }
 
+footer::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100px;
+    height: 1px;
+    width: 100%;
+    background: #afafb6;
+}
+
 footer .content {
     max-width: 1250px;
     margin: auto;
@@ -30,6 +40,7 @@ footer .content .top {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 footer .content .top .logo-details {
@@ -98,4 +109,89 @@ footer .content .top .media-icons a:nth-child(5) {
 footer .content .top .media-icons a:nth-child(5):hover {
     color: #ff0000;
     background: #fff;
+}
+
+footer .content .link-boxes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .content .link-boxes .box {
+    width: calc(100% / 5 - 10px);
+}
+
+footer .content .link-boxes .box .link-name {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+footer .content .link-boxes .box .link-name::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 2px;
+    width: 35px;
+    background: #fff;
+}
+
+footer .content .link-boxes .box li {
+    list-style: none;
+    margin: 6px 0;
+}
+
+footer .content .link-boxes .box li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.8;
+    transition: all 0.4s ease;
+}
+
+footer .content .link-boxes .box li a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+footer .content .link-boxes .input-box {
+    margin-right: 55px;
+}
+
+footer .content .link-boxes .input-box input {
+    height: 40px;
+    width: calc(100% + 55px);
+    outline: none;
+    border: 2px solid #afafaf;
+    background: #140b5c;
+    border-radius: 4px;
+    padding: 0 15px;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 5px;
+}
+
+footer .content .link-boxes .input-box input::placeholder {
+    color: #fff;
+    font-size: 16px;
+}
+
+footer .content .link-boxes .input-box input[type='button'] {
+    background: #fff;
+    color: #140b5c;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 4px 0;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+footer .content .link-boxes .input-box input[type='button']:hover {
+    opacity: 1;
 }

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background: #eeeceb;
+}
+
+footer {
+    position: fixed;
+    background: #140b5c;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+footer .content {
+    max-width: 1250px;
+    margin: auto;
+    padding: 30px 30px 40px 40px;
+}
+
+footer .content .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .content .top .logo-details {
+    color: #fff;
+    font-size: 30px;
+}
+
+footer .content .top .media-icons {
+    display: flex;
+}
+
+footer .content .top .media-icons a {
+    height: 40px;
+    width: 40px;
+    margin: 0 8px;
+    border-radius: 50%;
+    background: red;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+footer .content .top .media-icons a:nth-child(1) {
+    background: #4267b2;
+}
+
+footer .content .top .media-icons a:nth-child(1):hover {
+    color: #4267b2;
+    background: #fff;
+}
+
+footer .content .top .media-icons a:nth-child(2) {
+    background: #1da1f2;
+}
+
+footer .content .top .media-icons a:nth-child(2):hover {
+    color: #1da1f2;
+    background: #fff;
+}
+
+footer .content .top .media-icons a:nth-child(3) {
+    background: #e1306c;
+}
+
+footer .content .top .media-icons a:nth-child(3):hover {
+    color: #e1306c;
+    background: #fff;
+}
+
+footer .content .top .media-icons a:nth-child(4) {
+    background: #0077b5;
+}
+
+footer .content .top .media-icons a:nth-child(4):hover {
+    color: #0077b5;
+    background: #fff;
+}
+
+footer .content .top .media-icons a:nth-child(5) {
+    background: #ff0000;
+}
+
+footer .content .top .media-icons a:nth-child(5):hover {
+    color: #ff0000;
+    background: #fff;
+}

@@ -15,10 +15,6 @@ body {
     background: #f2f2f2;
 }
 
-input {
-    visibility: hidden;
-}
-
 nav {
     width: 600px;
     height: 60px;
@@ -86,4 +82,9 @@ nav label i {
 
 #about:checked~nav .slider {
     left: 80%;
+}
+
+input[type='radio'] {
+    /* visibility: hidden; */
+    display: none;
 }
